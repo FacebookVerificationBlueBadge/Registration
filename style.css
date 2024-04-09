@@ -1,0 +1,47 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:Arial, Sans-Serif;
+  font-weight:bolder;
+}
+#main{
+  
+  position:relative;
+  heught:100vh;
+  width:100%;
+}
+h2{
+  text-align:center;
+ margin-top:10%;
+}
+#whole{
+  position:absolute;
+  top:20%;
+  left:50%;
+  transform: translate(-50%,-20%);
+  width:80%;
+}
+input{
+  width:100%;
+  
+}
+#fbname, #fblink{
+  border-radius:7px;
+  padding:10px 5px;
+}
+#btn{
+  width:50%;
+  padding:10px 5px ;
+  margin-left:25%;
+  margin-right:25%;
+  font-size:16px;
+  border:none;
+  border-radius:7px;
+  color:white;
+  background:#076bfbdc;
+}
+#btn:active{
+  color:#076bfbdc;
+  background:white;
+  border:1px solid black;
+}
